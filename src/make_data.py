@@ -36,6 +36,7 @@ def make_linear(
         logger.info(f"Data generated at {filename}.")
     return filename
 
+
 def make_quadratic(
     filename: Path, size: int = 100, a: float = 3, b: float = 2.5, c=1.5, s: float = 0.5
 ):
